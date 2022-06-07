@@ -7,8 +7,11 @@
 ## Contact information:
 
 Phone: +48786338950
+
 Email: nadia.esperanza.2000@gmail.com
+
 Telegram: @rzvmlk
+
 [Github](https://github.com/rzvmlk) 
 
 __________________________________
