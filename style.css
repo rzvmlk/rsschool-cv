@@ -1,3 +1,170 @@
-h1 {
-   font-size: 20 px;
+html, body, h1 {
+   margin: 0;
+   padding: 0;
 }
+
+.container {
+   background-color:#FFF0F5;
+   font-family: florence;
+   width: 900px; 
+   margin: 0 auto;
+  
+}
+
+.container2 {
+   background-color:#a6a6a6;
+   font-family: florence;
+   width: 900px; 
+   height: auto;
+   margin: 0 auto;
+}
+
+
+ a{
+    color:#58485e;
+    text-decoration: none;
+ }
+
+ p {
+    font-size: 19px;
+ }
+
+ ul {
+   font-size: 19px;
+ }
+
+ h2 {
+    font-size: 25px;
+ }
+
+ .header {
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    background: #988093;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+.header-section{
+   display: flex;
+   align-items:center;
+}
+
+ .header-item {
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-right: 5px;
+ }
+
+ .header-item-logo {
+    color:#FFF0F5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    margin-left: 40px;
+    padding: 10px 10px;
+    font-size: 20px;
+ }
+
+ .header-item:hover{
+    background-color:#e8bdde;
+    border-radius: 10px;
+ }
+
+
+ .line {
+      height: 1px;
+      border: 0px;
+      padding: 0;
+      width: 75%;
+      background-color: rgb(9, 9, 9);
+ }
+
+ .line-r {
+    width: 70%;
+    margin-right: 30%;
+ }
+
+.container-for-main {
+   align-items: stretch;
+   position: relative;
+   display: flex;
+   /* align-items: flex-start; */
+}
+
+.left-container {
+   position:relative;
+   background-color: #cdb3c7;
+   width: 40%;
+   height: 100%;
+   /* padding: 40px; */
+}
+
+.right-container {
+   position: relative;
+   background: #fbe7f6;
+   width: 60%;
+   padding: 40px;
+   
+}
+
+
+
+.name {
+ text-transform: uppercase;
+ font-family: Lucida Bright;
+ text-align: center;
+ color:#FFF0F5;
+ padding: 5px;
+}
+
+.profession {
+   text-align: center;
+   color:#3c3939;
+   padding-top: 0;
+   font-size: 15px;
+   font-style: oblique;
+}
+
+
+.photo {
+   border-radius: 100%;
+   position:relative;
+}
+
+.img {
+   text-align: center;
+}
+
+.contacts {
+   text-decoration: none;
+   text-align: center;
+   color:#000000;
+   padding-top: 30px;
+}
+ 
+li {
+   padding-left: 1rem;
+}
+
+li::marker{
+   color:#988093;
+}
+
+pre {
+   font-family: monospace;
+   background-color: #434343;
+   color:aliceblue;
+}
+
+.year {
+   font-size: 25px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-bottom: 60px;
+}
+
+.imggit {
+   justify-content: auto;
+   text-align: center;
+}
+
