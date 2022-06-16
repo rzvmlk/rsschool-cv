@@ -20,7 +20,7 @@ html, body, h1 {
 }
 
 
- a{
+ a { 
     color:#58485e;
     text-decoration: none;
  }
@@ -79,6 +79,8 @@ html, body, h1 {
       width: 75%;
       background-color: rgb(9, 9, 9);
  }
+
+
 
  .line-r {
     width: 70%;
@@ -155,16 +157,21 @@ pre {
    font-family: monospace;
    background-color: #434343;
    color:aliceblue;
+   padding: 40px;
 }
 
 .year {
    font-size: 25px;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   margin-bottom: 60px;
+   text-align: end;
 }
 
 .imggit {
    justify-content: auto;
    text-align: center;
+}
+
+.list li {
+   list-style-type: none;
 }
 
