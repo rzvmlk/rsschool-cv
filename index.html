@@ -5,12 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/28e6df37aa.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Portfilio</title>
     <link href="style.css" rel="stylesheet">
+    <link href = "fonts/fonts.css" rel = "stylesheet">
 </head>
 <body>
-    <header class="header"></header>
-    <main class="container-for-main"></main>
+    <header class="header">
+        <div class="wrapper">
+            <a href="#" class="logo"></a>
+            <nav class="header__navigation">
+                <ul class="navigation">
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Code</li>
+                    <li>Skills</li>
+                    <li>Education</li>
+                    <li>Contacts</li>
+                </ul>
+            </nav>
+        </div>
+        <section class="preview">
+            <div class="wrapper">
+                <div class="preview__content">
+                    <h1> &#128075;Hi, I'm Nadia</h1>
+                    <p>I am junior front-end developer <br> & <br> I'm glad to see you on my portfolio page :) </p> 
+                    <div class="preview__button">
+                        <button class="button button_colored">My Projects</button>
+                    </div>
+                </div>
+            </div>  
+        </section>
+    </header>
+    
+    <main>
+        <section class="about">
+            <div class="wrapper">
+                <h2>About me</h2>
+                <p>I'm 22 y.o., living in Wroclaw and studying how to code </p>
+                <p>In the past I was a biologist, <br> in the present I am a student of RS School</p>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="wrapper">
+                <h2>My projects</h2>
+                <article class="projects__item">
+                    <a class="projects__link" href="https://rolling-scopes-school.github.io/rzvmlk-JSFE2022Q3/online-zoo/pages/main/">
+                        <img class="projects__img" src="/images/printscr-1.png">
+                        <div class="projects__info">
+                            <h3 class="project__title">Online Zoo</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="projects__item">
+                    <a class="projects__link" href="https://rolling-scopes-school.github.io/rzvmlk-JSFEPRESCHOOL2022Q2/travel/">
+                        <img class="projects__img" src="/images/printscr-2.png">
+                        <div class="projects__info">
+                            <h3 class="project__title">Travel</h3>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="wrapper wrapper__skills">
+                <div class="container ">
+                    <h2 class="skills__h2">My Skills</h2>
+                    <ul class="skills__ul">
+                        <li>
+                            <h5>HTML (80%)</h5>
+                            <span class = bar bar1>
+                                <span class = skills__html></span>
+                            </span>
+                            
+                        </li>
+                        <li>
+                            <h5>CSS,SASS (60%)</h5>
+                            <span class = bar bar2>
+                                <span class = skills__css></span>
+                            </span>
+                            
+                        </li>
+                        <li>
+                            <h5> JavaScript(40%)</h5>
+                            <span class = bar bar3>
+                                <span class = skills__js></span>
+                            </span>
+                            
+                        </li>
+                        <li>
+                            <h5>Salesforce (10%)</h5>
+                            <span class = bar bar4>
+                                <span class = skills__sf></span>
+                            </span>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="examples">
+            
+        </section>
+        <section class="education">
+            <div class="wrapper"></div>
+        </section>
+        <section class="contacts">
+            <div class="wrapper"></div>
+        </section>
+
+    </main>
     <footer></footer>
 </body>
 </html>
