@@ -1,178 +1,134 @@
-html, body, h1 {
+html, body, h1, ul, li,.wrapper, * {
    margin: 0;
    padding: 0;
 }
 
-.container {
-   background-color:#FFF0F5;
-   font-family: florence;
-   width: 900px; 
-   margin: 0 auto;
-  
+header {
+  background-image: url(./images/photo_2022-12-08_10-14-06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  height: 100vh;
+  width:100%;
 }
 
-.container2 {
-   background-color:#a6a6a6;
-   font-family: florence;
-   width: 900px; 
-   height: auto;
-   margin: 0 auto;
+.header__navigation {
+   background: rgba(0,0,0,.7);
 }
 
-
- a { 
-    color:#58485e;
-    text-decoration: none;
- }
-
- p {
-    font-size: 19px;
- }
-
- ul {
-   font-size: 19px;
- }
-
- h2 {
-    font-size: 25px;
- }
-
- .header {
-    display: flex;
-    justify-content:space-between;
-    padding: 10px;
-    background: #988093;
-    text-decoration: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
-
-.header-section{
-   display: flex;
-   align-items:center;
+/* section examples */
+.wrapper__skills{
+   width: 100%;
+   height: 500px;
+   background-color: #55606c;
+   align-items: center;
+   justify-items: center;
+}
+.container{
+   width: 380px;
+   height: 270px; 
+   background-color: rgb(241, 243, 244);
+   margin: 150px auto;
+   padding:30px;
+   border-radius: 15px;
+   box-shadow: 2px 20px 25px rgba(58, 55, 55, 0,2);
 }
 
- .header-item {
-    padding: 10px 10px;
-    font-size: 20px;
-    margin-right: 5px;
- }
-
- .header-item-logo {
-    color:#FFF0F5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style:oblique;
-    margin-left: 40px;
-    padding: 10px 10px;
-    font-size: 20px;
- }
-
- .header-item:hover{
-    background-color:#e8bdde;
-    border-radius: 10px;
- }
-
-
- .line {
-      height: 1px;
-      border: 0px;
-      padding: 0;
-      width: 75%;
-      background-color: rgb(9, 9, 9);
- }
-
-
-
- .line-r {
-    width: 70%;
-    margin-right: 30%;
- }
-
-.container-for-main {
-   align-items: stretch;
-   position: relative;
-   display: flex;
-   width: 900px;
-   margin: auto;
-   /* align-items: flex-start; */
+@keyframes Load {
+   from {
+      width: 0%;
+   }
+} 
+@-webkit-keyframes Load {
+   from{
+      width: 0%;
+   }
+}
+@-moz-keyframes Load{
+   from{
+      width: 0%;
+   }
+}
+@-o-keyframes Load {
+   from{
+      width: 0%;
+   }
 }
 
-.left-container {
-   position:relative;
-   background-color: #cdb3c7;
-   width: 40%;;
-   /* padding: 40px; */
+.skills__h2{
+   text-align: center;
+   margin-bottom: 10px;
 }
 
-.right-container {
-   position: relative;
-   background: #fbe7f6;
+.skills__ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.skills__ul li h5{
+   margin-bottom: 10px;
+}
+
+.bar{
+   height: 15px;
+   background-color: rgb(203, 203, 207);
+   display: block;
+   border: 1px solid rdba(0, 0, 0, 0.5);
+   margin-bottom: 15px;
+   border-radius: 15px;
+   box-shadow: 0 0 10px #4684c1;
+}
+.bar span {
+   height: 15px;
+   float:left;
+   background: rgba(18, 89, 160, 0.598);
+   border-radius: inherit;
+}
+.skills__html{
+   width: 80%;
+   animation: html 3s;
+}
+.skills__css{
    width: 60%;
-   padding: 40px;
-   
+   animation: css 3s
 }
-
-
-
-.name {
- text-transform: uppercase;
- font-family: Lucida Bright;
- text-align: center;
- color:#FFF0F5;
- padding: 5px;
+.skills__js{
+   width: 40%;
+   animation: js 3s
 }
-
-.profession {
-   text-align: center;
-   color:#3c3939;
-   padding-top: 0;
-   font-size: 15px;
-   font-style: oblique;
+.skills__sf{
+   width: 10%;
+   animation: sf 3s
 }
-
-
-.photo {
-   border-radius: 100%;
-   position:relative;
+@keyframes html {
+   0%{
+      width:0%;
+   }
+   100%{
+      width:80%;
+   }
 }
-
-.img {
-   text-align: center;
+@keyframes css {
+   0%{
+      width:0%;
+   }
+   100%{
+      width:60%;
+   }
 }
-
-.contacts {
-   text-decoration: none;
-   text-align: center;
-   color:#000000;
-   padding-top: 30px;
+@keyframes js {
+   0%{
+      width:0%;
+   }
+   100%{
+      width:40%;
+   }
 }
- 
-li {
-   padding-left: 1rem;
+@keyframes sf {
+   0%{
+      width:0%;
+   }
+   100%{
+      width:10%;
+   }
 }
-
-li::marker{
-   color:#988093;
-}
-
-pre {
-   font-family: monospace;
-   background-color: #434343;
-   color:aliceblue;
-   padding: 40px;
-}
-
-.year {
-   font-size: 25px;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   text-align: end;
-}
-
-.imggit {
-   justify-content: auto;
-   text-align: center;
-}
-
-.list li {
-   list-style-type: none;
-}
-
