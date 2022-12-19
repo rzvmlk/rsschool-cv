@@ -10,110 +10,179 @@
     <link href = "fonts/fonts.css" rel = "stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <a href="#" class="logo"></a>
-            <nav class="header__navigation">
-                <ul class="navigation">
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Code</li>
-                    <li>Skills</li>
-                    <li>Education</li>
-                    <li>Contacts</li>
-                </ul>
-            </nav>
-        </div>
-        <section class="preview">
+    <div class="global-wrapper">
+        <header>
             <div class="wrapper">
-                <div class="preview__content">
-                    <h1> &#128075;Hi, I'm Nadia</h1>
-                    <p>I am junior front-end developer <br> & <br> I'm glad to see you on my portfolio page :) </p> 
-                    <div class="preview__button">
-                        <button class="button button_colored">My Projects</button>
-                    </div>
-                </div>
-            </div>  
-        </section>
-    </header>
-    
-    <main>
-        <section class="about">
-            <div class="wrapper">
-                <h2>About me</h2>
-                <p>I'm 22 y.o., living in Wroclaw and studying how to code </p>
-                <p>In the past I was a biologist, <br> in the present I am a student of RS School</p>
-            </div>
-        </section>
-        <section class="projects">
-            <div class="wrapper">
-                <h2>My projects</h2>
-                <article class="projects__item">
-                    <a class="projects__link" href="https://rolling-scopes-school.github.io/rzvmlk-JSFE2022Q3/online-zoo/pages/main/">
-                        <img class="projects__img" src="/images/printscr-1.png">
-                        <div class="projects__info">
-                            <h3 class="project__title">Online Zoo</h3>
-                        </div>
-                    </a>
-                </article>
-                <article class="projects__item">
-                    <a class="projects__link" href="https://rolling-scopes-school.github.io/rzvmlk-JSFEPRESCHOOL2022Q2/travel/">
-                        <img class="projects__img" src="/images/printscr-2.png">
-                        <div class="projects__info">
-                            <h3 class="project__title">Travel</h3>
-                        </div>
-                    </a>
-                </article>
-            </div>
-        </section>
-        <section class="skills">
-            <div class="wrapper wrapper__skills">
-                <div class="container ">
-                    <h2 class="skills__h2">My Skills</h2>
-                    <ul class="skills__ul">
+                <a href="#" class="logo"></a>
+                <nav class="header__navigation">
+                    <ul class="navigation">
                         <li>
-                            <h5>HTML (80%)</h5>
-                            <span class = bar bar1>
-                                <span class = skills__html></span>
-                            </span>
-                            
+                            <a href=#about class=navigation__link>About</a>
                         </li>
                         <li>
-                            <h5>CSS,SASS (60%)</h5>
-                            <span class = bar bar2>
-                                <span class = skills__css></span>
-                            </span>
-                            
+                            <a href=#projects class=navigation__link>Projects</a>
                         </li>
                         <li>
-                            <h5> JavaScript(40%)</h5>
-                            <span class = bar bar3>
-                                <span class = skills__js></span>
-                            </span>
-                            
+                            <a href=#code class=navigation__link>Code</a>
                         </li>
                         <li>
-                            <h5>Salesforce (10%)</h5>
-                            <span class = bar bar4>
-                                <span class = skills__sf></span>
-                            </span>
-                            
+                            <a href=#skills class=navigation__link>Skills</a>
+                        </li>
+                        <li>
+                            <a href=#education class=navigation__link>Education</a>
+                        </li>
+                        <li>
+                            <a href=#contacts class=navigation__link>Contacts</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
             </div>
-        </section>
-        <section class="examples">
-            
-        </section>
-        <section class="education">
-            <div class="wrapper"></div>
-        </section>
-        <section class="contacts">
-            <div class="wrapper"></div>
-        </section>
-
-    </main>
-    <footer></footer>
+            <section class="preview">
+                <div class="wrapper">
+                    <div class="preview__content">
+                        <img class="preview__abstract" src="/images/Abstract-pink-liquid.png" alt="absrtact" width="800" height="560">
+                        
+                        <div class="preview__text">
+                            <h1> &#128075;Hi, I'm Nadia</h1>
+                            <p class="preview__p">I am junior front-end developer <br> & <br> I'm glad to see you on my portfolio page </p> 
+                            <div class="preview__button">
+                                <button class="button button_colored">
+                                    <a href=#projects class="button__link"> My Projects</a>
+                                </button>
+                             </div>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+        </header>
+        
+        <main>
+            <section class="about" id="about">
+                <div class="wrapper__about">
+                    <h2>About me</h2>
+                    <div class="about__content">
+                        
+                        <p>I'm 22 y.o., living in Wroclaw and studying how to code </p>
+                        <p>In the past I was a biologist, <br> in the present I am a student of RS School</p>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="projects" id="projects">
+                <div class="wrapper__projects">
+                    <h2>My projects</h2>
+                    <ul class="projects__list">
+                        <li  class="projects__item">
+                                <a class="projects__link" href="https://rolling-scopes-school.github.io/rzvmlk-JSFE2022Q3/online-zoo/pages/main/">
+                                    <img class="projects__img" src="/images/printscr-1.png" alt="online-zoo" width="700" height="400">
+                                    
+                                </a>
+                                <div class="projects__info">
+                                    <h3 class="project__title">Online Zoo</h3>
+                                </div>
+                        </li>
+                        <li class="projects__item">
+                                <a class="projects__link" href="https://rolling-scopes-school.github.io/rzvmlk-JSFEPRESCHOOL2022Q2/travel/">
+                                    <img class="projects__img" src="/images/printscr-2.png" alt="travel"  width="700" height="400">
+                                   
+                                </a>
+                                <div class="projects__info">
+                                    <h3 class="project__title">Travel</h3>
+                                </div>
+                        </li>
+                    </ul>
+                    
+                    
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="wrapper wrapper__skills">
+                    <div class="container ">
+                        <h2 class="skills__h2">My Skills</h2>
+                        <ul class="skills__ul">
+                            <li>
+                                <h5>HTML (80%)</h5>
+                                <span class = bar bar1>
+                                    <span class = skills__html></span>
+                                </span>
+                                
+                            </li>
+                            <li>
+                                <h5>CSS,SASS (60%)</h5>
+                                <span class = bar bar2>
+                                    <span class = skills__css></span>
+                                </span>
+                                
+                            </li>
+                            <li>
+                                <h5> JavaScript(40%)</h5>
+                                <span class = bar bar3>
+                                    <span class = skills__js></span>
+                                </span>
+                                
+                            </li>
+                            <li>
+                                <h5>Salesforce (10%)</h5>
+                                <span class = bar bar4>
+                                    <span class = skills__sf></span>
+                                </span>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="examples" id="code">
+    
+                <pre>
+                    <code>
+                        <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(45, 45, 45); color: rgb(204, 204, 204); padding: 0.5em;"><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(204, 153, 204);">function</span> <span class="hljs-title" style="color: rgb(102, 153, 204);">getLengthOfMissingArray</span>(<span class="hljs-params" style="color: rgb(249, 145, 87);">arrayOfArrays</span>) </span>{
+                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> value = (arrayOfArrays || [] )
+                                .map(a=&gt; a? a.length : <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>)
+                                .sort((a, b) =&gt; a-b);
+                            
+                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">if</span> (value.includes(<span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>)) {
+                              <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>;
+                            }
+                            
+                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">for</span> (<span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> i=<span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>; i&lt; value.length - <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>; i++){
+                              <span class="hljs-keyword" style="color: rgb(204, 153, 204);">if</span> (value[i] + <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span> !== value[i+<span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>]){
+                                <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> value[i] + <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>;
+                              }
+                            }
+                            
+                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>;
+                          }</pre>
+                    </code>
+                </pre>
+                
+            </section>
+            <section class="education" id="education">
+                <div class="wrapper"></div>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="wrapper"></div>
+            </section>
+    
+        </main>
+        <footer>
+            <div class="wrapper__footer">
+                <div class="github">
+                    <a href="https://github.com/rzvmlk" class="github__link">
+                        <img class="github__img" src="/images/iconmonstr-github-1.svg" alt="github" height="30px" width="30px">
+                    </a>
+                </div>
+                <div class="rss">
+                    <a href="https://rs.school/" class="rss">
+                        <img class="rss__img" src="/images/rs.png" alt="rs" height="30px" width="80px" >
+                    </a>
+                </div>
+                <div class="year">
+                    2022 
+                </div>  
+            </div>
+        </footer>
+    </div>
+    
 </body>
 </html>
