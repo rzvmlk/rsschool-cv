@@ -133,43 +133,81 @@
                 </div>
             </section>
             <section class="examples" id="code">
-    
-                <pre>
-                    <code>
-                        <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(45, 45, 45); color: rgb(204, 204, 204); padding: 0.5em;"><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(204, 153, 204);">function</span> <span class="hljs-title" style="color: rgb(102, 153, 204);">getLengthOfMissingArray</span>(<span class="hljs-params" style="color: rgb(249, 145, 87);">arrayOfArrays</span>) </span>{
-                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> value = (arrayOfArrays || [] )
-                                .map(a=&gt; a? a.length : <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>)
-                                .sort((a, b) =&gt; a-b);
-                            
-                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">if</span> (value.includes(<span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>)) {
-                              <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>;
-                            }
-                            
-                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">for</span> (<span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> i=<span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>; i&lt; value.length - <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>; i++){
-                              <span class="hljs-keyword" style="color: rgb(204, 153, 204);">if</span> (value[i] + <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span> !== value[i+<span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>]){
-                                <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> value[i] + <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>;
-                              }
-                            }
-                            
-                            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>;
-                          }</pre>
-                    </code>
-                </pre>
+                <div class="wrapper__code">
+        
+                    <pre>
+                        <code>
+                            <pre class="hljs" style="display: block; overflow-x: auto; background: rgb(45, 45, 45); color: rgb(204, 204, 204); padding: 0.5em;"><span class="hljs-function"><span class="hljs-keyword" style="color: rgb(204, 153, 204);">function</span> <span class="hljs-title" style="color: rgb(102, 153, 204);">getLengthOfMissingArray</span>(<span class="hljs-params" style="color: rgb(249, 145, 87);">arrayOfArrays</span>) </span>{
+                                <span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> value = (arrayOfArrays || [] )
+                                    .map(a=&gt; a? a.length : <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>)
+                                    .sort((a, b) =&gt; a-b);
+                                
+                                <span class="hljs-keyword" style="color: rgb(204, 153, 204);">if</span> (value.includes(<span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>)) {
+                                  <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>;
+                                }
+                                
+                                <span class="hljs-keyword" style="color: rgb(204, 153, 204);">for</span> (<span class="hljs-keyword" style="color: rgb(204, 153, 204);">let</span> i=<span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>; i&lt; value.length - <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>; i++){
+                                  <span class="hljs-keyword" style="color: rgb(204, 153, 204);">if</span> (value[i] + <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span> !== value[i+<span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>]){
+                                    <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> value[i] + <span class="hljs-number" style="color: rgb(249, 145, 87);">1</span>;
+                                  }
+                                }
+                                
+                                <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> <span class="hljs-number" style="color: rgb(249, 145, 87);">0</span>;
+                              }</pre>
+                        </code>
+                    </pre>
+                </div>
+                
                 
             </section>
-            <section class="education" id="education">
-                <div class="wrapper"></div>
+            <section class="education-contact" id="education">
+                <div class="wrapper__contacts" id="contacts">
+                    <ul class="contact__list">
+                        <li class="contatct__item">
+                            <a class="contacts_link" href="https://github.com/rzvmlk">
+                                <img class="contatcts_svg" src="../rsschool-cv/images/github-svgrepo-com.svg" alt="github" height="45" width="45">
+                                GitHub
+                            </a> 
+                        </li>
+                        <li class="contatct__item">
+                            <a class="contacts_link" href="https://t.me/rzvmlk">
+                                <img class="contatcts_svg" src="../rsschool-cv/images/telegram-svgrepo-com.svg" alt="github" height="45" width="45">
+                                Telegram
+                            </a> 
+                        </li>
+                        <li class="contatct__item">
+                            <a class="contacts_link" href="https://www.linkedin.com/feed/">
+                                <img class="contatcts_svg" src="../rsschool-cv/images/linkedin-svgrepo-com.svg" alt="github" height="45" width="45">
+                                LinkedIn
+                            </a> 
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="wrapper__education">
+                    <h2>Education</h2>
+                    <ul class="edu__list">
+                        <li class="edu__item">Belarusian State University - Biological faculty (2017-2022)</li>
+                        <li class="edu__item">RS School - FE - 2022-...</li>
+                    </ul>
+                    <h2>Languages</h2>
+                    <ul class="lang__list">
+                        <li class="lang__item">English - B2</li>
+                        <li class="lang__item">Czech - B1</li>
+                        <li class="lang__item">Polish - A1</li>
+                        <li class="lang__item">Russian - native</li>
+                        <li class="lang__item">Belarusian - native</li>
+                    </ul>
+                </div>
             </section>
-            <section class="contacts" id="contacts">
-                <div class="wrapper"></div>
-            </section>
+            
     
         </main>
         <footer>
             <div class="wrapper__footer">
                 <div class="github">
                     <a href="https://github.com/rzvmlk" class="github__link">
-                        <img class="github__img" src="../rsschool-cv/images/" alt="github" height="30px" width="30px">
+                        <img class="github__img" src="../rsschool-cv/images/github-svgrepo-com.svg" alt="github" height="30px" width="30px">
                     </a>
                 </div>
                 <div class="rss">

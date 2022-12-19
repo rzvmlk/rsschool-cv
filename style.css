@@ -10,6 +10,7 @@ html {
 .global-wrapper {
    max-width: 1600px;
    margin: 0 auto;
+   background: linear-gradient(to top, #5762d3,  rgb(214, 137, 163));   
 }
 
 header {
@@ -136,7 +137,7 @@ h2 {
 .projects {
    max-width: 1600px;
    height: 950px;
-   background: linear-gradient(to top, #313fd5,  rgb(214, 137, 163));
+   
    position: relative;
    padding: 30px 80px;
 }
@@ -180,13 +181,13 @@ h3{
    bottom: 15%;
    right: 15%;
    font-size: 40px;
-   color: azure;
+   color: rgb(7, 24, 24);
 }
 /* section examples */
 .skills {
    max-width: 1600px;
    height: 700px;
-   background: linear-gradient(to top right, rgb(220, 220, 222), rgb(120, 152, 205));
+   
    display: flex;
    align-items: center;
    justify-content: center;
@@ -305,6 +306,81 @@ h5 {
    100%{
       width:10%;
    }
+}
+
+.examples {
+   position: relative;
+   display: flex;
+   max-width: 1600px;
+   height: 700px;
+   background: linear-gradient(to top right, rgb(58, 22, 31), rgb(120, 152, 205));
+   padding: 30px 60px;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+}
+
+.wrapper__code {
+   width: 70%;
+}
+
+.education-contact{
+   position: relative;
+   display: flex;
+   max-width: 1600px;
+   height: 600px;
+   padding: 30px 40px;
+   justify-content: space-around;
+   align-items:center;
+   flex-direction: row;
+   font-size: 24px;
+}
+
+.wrapper__contacts {
+   width:400px;
+   height: 350px;
+   background-color: #dce1e2;
+   border-radius: 25px;
+}
+.wrapper__education {
+   width:800px;
+   height: 450px;
+   background-color: #f563b8;
+   padding: 10px 40px;
+   border-radius: 25px;
+}
+
+.education h2{
+   padding-bottom: 40px;
+}
+
+.edu__list, .lang__list{
+   list-style-type:square; 
+   font-size: 32px;
+   padding-bottom: 30px;
+}
+
+.lang__item, .edu__item {
+   text-decoration: none;
+}
+
+.contact__list {
+   display: flex;
+   list-style: none;
+   justify-content:left;
+   flex-direction: column;
+
+}
+.contacts_link {
+   text-decoration: none;
+   color:#182228;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  padding: 30px 30px;
+}
+.contatcts_svg {
+   padding-right: 10px;
 }
 
 footer {
