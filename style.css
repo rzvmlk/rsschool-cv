@@ -156,6 +156,7 @@ h2 {
 .projects__item{
    position: relative;
 }
+
 .projects__link {
    display: inline-block;
 	position: relative;    
@@ -240,6 +241,7 @@ h5 {
    margin: 0;
    padding: 0;
 }
+
 .skills__ul li h5{
    margin-bottom: 10px;
 }
@@ -342,6 +344,7 @@ h5 {
    background-color: #dce1e2;
    border-radius: 25px;
 }
+
 .wrapper__education {
    width:800px;
    height: 450px;
@@ -369,8 +372,8 @@ h5 {
    list-style: none;
    justify-content:left;
    flex-direction: column;
-
 }
+
 .contacts_link {
    text-decoration: none;
    color:#182228;
@@ -379,6 +382,7 @@ h5 {
   font-size: 28px;
   padding: 30px 30px;
 }
+
 .contatcts_svg {
    padding-right: 10px;
 }
@@ -404,5 +408,4 @@ footer {
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    font-style: bold;
    font-size: 24px;
-
 }
